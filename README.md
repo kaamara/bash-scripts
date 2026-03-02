@@ -3,4 +3,7 @@
 chmod +x server-stats.sh
 ./server-stats.sh
 
-https://roadmap.sh/projects/server-stats
+# internet-stats.sh
+
+chmod +x internet-stats.sh
+./internet-stats.sh
