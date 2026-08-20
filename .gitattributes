@@ -1,6 +1,0 @@
-# Skrypty bash musza miec konce linii LF. Z CRLF Linux zglasza
-# "bad interpreter: /usr/bin/env bash^M" i skrypt sie nie uruchamia.
-*.sh  text eol=lf
-
-# PowerShell na Windowsie jest odporny na oba, ale trzymamy natywne CRLF.
-*.ps1 text eol=crlf
