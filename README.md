@@ -1,7 +1,7 @@
 # sysadmin-scripts
 
 Trzy skrypty diagnostyczne do szybkiego sprawdzenia stanu maszyny, każdy
-w dwóch wersjach: Bash dla Linuksa i PowerShell dla Windowsa. Obie wersje
+w dwóch wersjach: Bash i PowerShell. Obie wersje
 robią to samo i wypisują te same sekcje.
 
 ## Skrypty
@@ -30,8 +30,3 @@ Windows:
 Gdy PowerShell odmówi uruchomienia skryptu, odblokuj to na czas bieżącej
 sesji: `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
 
-## Uwagi
-
-`security-check` po stronie Linuksa czyta `/var/log/auth.log` (Debian,
-Ubuntu), a gdy go nie znajdzie, sięga do `journalctl` (Fedora, Arch).
-Liczbę pakietów do aktualizacji sprawdza przez `apt` albo `dnf`.
