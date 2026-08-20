@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo "------------------------------------------"
 echo "       SYSTEM HEALTH & SECURITY CHECK     "
 echo "------------------------------------------"
